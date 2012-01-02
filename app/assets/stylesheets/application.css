@@ -5,3 +5,52 @@
  *= require_self
  *= require_tree . 
 */
+
+/* General Styling */
+a {
+	color: white;
+}
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+/*Home Page Styling */
+.container {
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	padding-top: 30px;
+	padding-left: 45px;
+	position: absolute;
+}
+
+.sign_in {
+	padding-top: 35px;
+	padding-right: 50px;
+	color: white;
+	float: right;
+	text-align: top;
+	display: block;
+}
+
+.intro {
+	padding-top: 110px;
+	padding-left: 75px;
+	width: 830px;
+	height: 545px;
+}
+
+/* Footer Styling */
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 75px;
+	text-align: center;
+}
