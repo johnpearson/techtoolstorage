@@ -2,5 +2,11 @@
 	<%= image_tag("techtool_header.gif", :alt => "Header") %>
 </div>
 <div class="sign_in">
-		Already have an account?&nbsp;&nbsp;<%= link_to "Sign In", "#" %>
+	<%= form_for("user", :url => user_session_path) do |f| %>
+		<p><%= f.label :email %> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<%= f.text_field :email %></p>
+		<p><%= f.label :password %> 
+		<%= f.password_field :password %></p>
+		&nbsp;&nbsp;&nbsp;&nbsp;<%= f.submit 'Sign in' %>
+	<% end %>	
 </div>

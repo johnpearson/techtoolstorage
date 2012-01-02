@@ -33,11 +33,14 @@ body {
 }
 
 .sign_in {
-	padding-top: 35px;
+	padding-top: 15px;
 	padding-right: 50px;
 	color: white;
 	float: right;
-	text-align: top;
+	text-align: right;
+}
+
+.sign_in form {
 	display: block;
 }
 
