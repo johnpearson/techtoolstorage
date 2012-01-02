@@ -15,7 +15,6 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 }
 
-/*Home Page Styling */
 .container {
 	background-image: url("background.png");
 	background-repeat: no-repeat;
@@ -24,6 +23,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* Header Styling */
 
 .header {
 	padding-top: 30px;
@@ -40,8 +41,10 @@ body {
 	display: block;
 }
 
+/* Home Page Styling */
+
 .intro {
-	padding-top: 110px;
+	padding-top: 115px;
 	padding-left: 75px;
 	width: 830px;
 	height: 545px;
