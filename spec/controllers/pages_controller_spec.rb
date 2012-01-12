@@ -20,5 +20,9 @@ describe PagesController do
     it "should have a header image" do
       response.should have_selector("img", :src => "/assets/techtool_header.gif")
     end
+    
+    it "should have a sign in form" do
+      response.should have_selector("form")
+    end
   end
 end

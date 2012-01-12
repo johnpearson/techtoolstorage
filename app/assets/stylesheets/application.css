@@ -27,15 +27,15 @@ body {
 /* Header Styling */
 
 .header {
-	padding-top: 30px;
-	padding-left: 45px;
+	padding-top: 20px;
+	padding-left: 30px;
 	position: absolute;
 }
 
 .sign_in {
 	padding-top: 15px;
 	padding-right: 50px;
-	color: white;
+	color: black;
 	float: right;
 	text-align: right;
 }
@@ -51,6 +51,13 @@ body {
 	padding-left: 75px;
 	width: 830px;
 	height: 545px;
+}
+
+#sign_up {
+	position: absolute;
+	left: 645px;
+	top: 645px;
+	z-index: 5;
 }
 
 /* Footer Styling */
